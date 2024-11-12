@@ -26,7 +26,9 @@ All Bad (1/4* 1/4 *1/4) = 1/64: LLL, LLR, LRR, RRR, LRL, RLL, RRL, RLR;  1/64 * 
 
 Two bad(1/4 * 1/2 * 1/4)= 1/32: LLP, LRP, RRP, RLP, LPL, PRR, PLL, RPR, RPL, LPR, PLR, PRL; 1/32 * 12 = 0.375
 
-One bad(1/2 * 1/2 * 1/4)= 1/16: LPP, RPP, PLP, PRP, PPL, PPR; 1/16 * 6 = .375 Good (1/2 * 1/2 *1/2)= 1/8 = .125: PPP
+One bad(1/2 * 1/2 * 1/4)= 1/16: LPP, RPP, PLP, PRP, PPL, PPR; 1/16 * 6 = .375
+
+Good (1/2 * 1/2 *1/2)= 1/8 = .125: PPP
 
 The median of three would be more likely to choose a better pivot the probability is 0.375 + 0.125 = 0.5, 50%. 
 
