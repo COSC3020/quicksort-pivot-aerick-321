@@ -30,6 +30,6 @@ One bad(1/2 * 1/2 * 1/4)= 1/16: LPP, RPP, PLP, PRP, PPL, PPR; 1/16 * 6 = .375
 
 Good (1/2 * 1/2 *1/2)= 1/8 = .125: PPP
 
-The median of three would be more likely to choose a better pivot the probability is 0.375 + 0.125 = 0.5, 50%. 
+The median of three would be more likely to choose a better pivot the probability is 0.375 + 0.125 + 0.375 = 0.875, 87.5% while the random has a 50% chance of finding the right pivot. 
 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
