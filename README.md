@@ -19,3 +19,17 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+There are three elements to choose from and those three elements could land in three places, greater than pivot, good pivot, and less that pivot. The greater than and less than pivot are not the best choice and both have the probability of 1/4 while the good pivot in the middle has a probability of 1/2. The total number of permutations would be 3^3, 27 different ways. L-left of pivot, P- good pivot, R- right of pivot
+
+All Bad (1/4* 1/4 *1/4) = 1/64: LLL, LLR, LRR, RRR, LRL, RLL, RRL, RLR;  1/64 * 8 = .125
+
+Two bad L or R but not both (1/4 * 1/2 * 1/4)= 1/32: LLP, RRP, LPL, PRR, PLL, RPR; 1/32 * 6 = 0.1875
+
+One bad(1/2 * 1/2 * 1/4)= 1/16: LPP, RPP, PLP, PRP, PPL, PPR; 1/16 * 6 = .375
+
+Good (1/2 * 1/2 *1/2)= 1/8 = .125: PPP
+
+The median of three would be more likely to choose a better pivot the probability is 0.375 + 0.125 + 0.1875 = 0.6875, 68.8% while the random has a 50% chance of finding the right pivot. 
+
+The TA gave me this website to help explain https://walkccc.me/CLRS/Chap07/Problems/7-5/ “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
